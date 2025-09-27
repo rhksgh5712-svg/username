@@ -1,0 +1,21 @@
+{
+"name": "AI 오목 게임",
+"short_name": "오목AI",
+"description": "Android 및 PWA 호환 오목 게임",
+"start_url": "./index.html",
+"display": "standalone",
+"background_color": "#f9fafb",
+"theme_color": "#374151",
+"icons": [
+{
+"src": "omok-icon-192.png",
+"sizes": "192x192",
+"type": "image/png"
+},
+{
+"src": "omok-icon-512.png",
+"sizes": "512x512",
+"type": "image/png"
+}
+]
+}
