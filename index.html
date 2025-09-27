@@ -169,8 +169,8 @@
         // PWA 서비스 워커 등록 (오프라인 캐싱 및 설치를 위해 필요)
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                // service-worker.js 파일이 이 HTML 파일과 같은 위치에 저장되어 있다고 가정합니다.
-                navigator.serviceWorker.register('./service-worker.js').then(registration => {
+                // NOTE: 업로드하신 파일명인 'service-work.js'로 경로를 수정했습니다.
+                navigator.serviceWorker.register('./service-work.js').then(registration => {
                     console.log('ServiceWorker registration successful with scope: ', registration.scope);
                 }, err => {
                     console.log('ServiceWorker registration failed: ', err);
